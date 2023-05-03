@@ -15,6 +15,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm test`
+单元测试
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -29,7 +30,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `npm run eject` 
+暴露配置项
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -68,3 +70,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+```JSON
+"dependencies": {
+    "@testing-library/jest-dom": "^5.16.5", 
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0", //核心
+    "react-dom": "^18.2.0", //视图编译
+    "react-scripts": "5.0.1", //打包命令的集成
+    "web-vitals": "^2.1.4" //性能检测工具
+},
+```
